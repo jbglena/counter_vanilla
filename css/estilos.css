@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(214, 244, 250);
+    color: black;
+    line-height: 1.5;
+}
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .titulo-counter {
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+    font-size: 7rem;
+  }
+ 
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    
+    body {
+      font-size: 1rem;
+    }
+
+    h1 {
+      line-height: 1;
+    }
+  }
+
+  
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  #value {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 0.375rem 0.75rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 10px 10px 13px rgb(132, 185, 247);
+    border-radius: var(--radius);
+    margin: 0.5rem;
+  }
